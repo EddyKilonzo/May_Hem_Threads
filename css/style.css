@@ -130,7 +130,7 @@ a {
       /* top: 2000px; */
       right: 0px;
       z-index: 2;
-      max-width: 72%;
+      max-width: 2%;
       left: -2000px; }
       @media (min-width: 768px) {
         .hero .hero-img-wrap img {
@@ -173,7 +173,7 @@ a {
       
       background-size: contain;
       background-repeat: no-repeat;
-      right: -80px;
+      right: -10px;
       top: -0px; }
       @media (min-width: 1200px) {
         .hero .hero-img-wrap:after {
