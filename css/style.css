@@ -308,9 +308,19 @@ a {
       z-index: -1; }
     .why-choose-section .img-wrap img {
       border-radius: 20px; }
-
-.feature {
-  margin-bottom: 30px; }
+ 
+.feature1 {
+  margin-bottom: 30px; 
+  display: flex; 
+  align-items: center; 
+  justify-content:flex-start; 
+  gap: 10px;
+}
+@media screen and (max-width: 800px) {
+  .feature1 {
+    display: block;
+}
+}
   .feature .icon {
     display: inline-block;
     position: relative;
@@ -331,7 +341,7 @@ a {
     font-size: 14px;
     line-height: 22px;
     color: #6a6a6a; }
-
+scre
 .we-help-section {
   padding: 7rem 0; }
   .we-help-section .imgs-grid {
@@ -524,6 +534,9 @@ a {
         background-color: #d6d6d6; }
       .testimonial-slider-wrap .tns-nav button:hover:before, .testimonial-slider-wrap .tns-nav button.tns-nav-active:before {
         background-color: #06283D; }
+        .feature{
+          display: block;
+        }
 
 .before-footer-section {
   padding: 7rem 0 12rem 0 !important; }
